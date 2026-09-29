@@ -1,0 +1,85 @@
+# ============================================================
+#  AI Coding 协作产物 / Agent 运行时状态
+# ============================================================
+.omc/
+.claude/
+.claude-tmp/
+.workbuddy/
+.agent-teams/
+.backup/
+.tmp_claude/
+.playwright-mcp/
+.gsd/
+.planning/
+.codegraph/
+graphify-out/
+.cursor/
+.cursorrules
+openspec/
+AGENTS.md
+CLAUDE.md
+CLAUDE.local.md
+GEMINI.md
+
+# AI 生成的规划 / 审计类文档
+PRD.md
+SDK_AUDIT.md
+REVIEW-REPORT.md
+*-AUDIT.md
+
+# ============================================================
+#  隐藏文件 / 编辑器 / 操作系统
+# ============================================================
+.*
+!.gitignore
+!.github/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ============================================================
+#  Go
+# ============================================================
+vendor/
+*.test
+*.exe
+*.exe~
+*.out
+*.o
+*.a
+*.so
+*.dylib
+*.prof
+*.coverprofile
+bin/
+dist/
+build/
+coverage/
+coverage.txt
+
+# ============================================================
+#  日志 / 本地数据 / 环境变量
+# ============================================================
+*.log
+logs/
+data/
+*.tmp
+.env
+.env.*
+*.local.yaml
+*.local.toml
+*.local.json
+
+# ============================================================
+#  Go 构建产物 / 本地数据 / 编辑器与 OS 文件
+# ============================================================
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+.DS_Store
+.DS_Store?
